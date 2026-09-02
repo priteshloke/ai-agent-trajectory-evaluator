@@ -1,0 +1,24 @@
+{
+  "trajectoryId": "traj-sample-clean",
+  "agentModel": "gpt-4o",
+  "taskDescription": "Implement O(N) Set lookup for duplicate ID check",
+  "totalSteps": 2,
+  "totalTokensUsed": 4500,
+  "steps": [
+    {
+      "stepIndex": 1,
+      "actionType": "FILE_EDIT",
+      "targetFile": "src/lookup.ts",
+      "codeDiff": "+ const seen = new Set<string>();\n+ for (const id of ids) { seen.add(id); }",
+      "outputStatus": "SUCCESS",
+      "outputContent": "Linear time set implementation complete"
+    },
+    {
+      "stepIndex": 2,
+      "actionType": "COMMAND_RUN",
+      "command": "npm test",
+      "outputStatus": "SUCCESS",
+      "outputContent": "All 14 tests passing in 8ms"
+    }
+  ]
+}
