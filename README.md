@@ -1,9 +1,9 @@
 # AI Agent Trajectory Evaluator 🤖🔍
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-v20%2B-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-v18%2B-green.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Strict%20ESM-blue.svg)](https://www.typescriptlang.org/)
-[![Tests](https://img.shields.io/badge/Tests-100%25%20Passing-brightgreen.svg)]()
+[![CI](https://github.com/priteshloke/ai-agent-trajectory-evaluator/actions/workflows/ci.yml/badge.svg)](https://github.com/priteshloke/ai-agent-trajectory-evaluator/actions/workflows/ci.yml)
 
 > **Deterministic static analysis and forensic audit harness for autonomous AI coding agents.**  
 > Built for SWE-bench evaluation, frontier RLHF code grading (Mercor, Outlier AI, Scale AI), and enterprise agentic CI/CD pipelines.
