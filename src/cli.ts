@@ -19,7 +19,7 @@ const program = new Command();
 
 program
   .name('agent-eval')
-  .description('Audit AI Agent Trajectories (SWE-bench, Mercor, Outlier) for test tampering, secret leaks, and thrashing')
+  .description('Audit AI agent trajectories for test tampering, secret leaks, hallucinated dependencies and thrashing')
   .option('-i, --input <path>', 'Path to agent trajectory JSON file')
   .option('--demo', 'Run audit against built-in trajectory benchmark fixtures', false)
   .option('-o, --output <path>', 'Path to write HTML report')

@@ -2,8 +2,9 @@
 
 > **Project:** [github.com/priteshloke/ai-agent-trajectory-evaluator](https://github.com/priteshloke/ai-agent-trajectory-evaluator)  
 > **Stack:** Node.js · TypeScript · Pure ESM · AST Diff Forensics · Commander CLI · node:test  
-> **Use:** Master the concepts behind autonomous AI agent forensics, SWE-bench evaluation invariants, and agentic CI/CD gates; defend every architectural decision 3 levels deep in Principal/Staff AI Engineer and Mercor/Outlier screening interviews.  
-> **Upload directly to NotebookLM as a canonical source.**
+> **Use:** The design reasoning behind the harness — why multi-step agent trajectories defeat
+> conventional testing, what each forensic rule is actually detecting, and where the approach stops
+> working. Written to be read alongside `src/engine.ts`.
 
 **Verified on 2026-09-02:** Strict TypeScript check (`tsc -p tsconfig.json`) → **0 errors**; Automated Test Suite (`npm test`) → **7/7 passing (100% green)** across unit rules and batch benchmark fixtures.
 

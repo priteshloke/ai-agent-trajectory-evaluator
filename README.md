@@ -6,7 +6,10 @@
 [![CI](https://github.com/priteshloke/ai-agent-trajectory-evaluator/actions/workflows/ci.yml/badge.svg)](https://github.com/priteshloke/ai-agent-trajectory-evaluator/actions/workflows/ci.yml)
 
 > **Deterministic static analysis and forensic audit harness for autonomous AI coding agents.**  
-> Built for SWE-bench evaluation, frontier RLHF code grading (Mercor, Outlier AI, Scale AI), and enterprise agentic CI/CD pipelines.
+> Catches the test tampering, secret egress and hallucinated dependencies that a green build hides.
+>
+> No model judges another model here: every rule is pure, deterministic and zero-I/O, so the same
+> trajectory always produces the same score and any finding can be traced to the line that caused it.
 
 ---
 

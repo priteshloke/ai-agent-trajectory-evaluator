@@ -10,7 +10,7 @@ export function formatTrajectoryAuditTerminalReport(
 ): string {
   const lines: string[] = [];
   lines.push('================================================================');
-  lines.push('🤖 KEPLER AI AGENT TRAJECTORY BENCHMARK EVALUATION');
+  lines.push('🤖 AI AGENT TRAJECTORY BENCHMARK EVALUATION');
   lines.push('================================================================');
   lines.push(`Trajectory ID:   ${summary.trajectoryId}`);
   lines.push(`Agent Model:     ${summary.agentModel}`);

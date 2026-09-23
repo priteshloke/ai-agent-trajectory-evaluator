@@ -1,7 +1,7 @@
 {
   "name": "ai-agent-trajectory-evaluator",
   "version": "1.0.0",
-  "description": "Deterministic static analysis and forensic audit harness for autonomous AI coding agent trajectories (SWE-bench, Claude Code, Devin, Outlier, Mercor).",
+  "description": "Deterministic static analysis and forensic audit harness for autonomous AI coding-agent trajectories \u2014 catches test tampering, secret egress and hallucinated dependencies that a green build hides.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,8 +23,6 @@
     "code-forensics",
     "owasp-llm",
     "agentic-ai",
-    "mercor",
-    "outlier-ai",
     "rlhf"
   ],
   "author": "Pritesh Loke <https://github.com/priteshloke>",

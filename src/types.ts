@@ -1,6 +1,6 @@
 /**
  * Frontier 3: Deterministic AI Agent Trajectory Evaluator (AI_EVAL_OPS)
- * Types and schema definitions for SWE-bench, Mercor, and Outlier AI trajectory audits.
+ * Types and schema definitions for AI coding-agent trajectory audits.
  */
 
 export type AgentEvalSeverity = 'CRITICAL' | 'HIGH' | 'MEDIUM' | 'LOW' | 'INFO';
